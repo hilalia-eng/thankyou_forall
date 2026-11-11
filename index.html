@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untukmu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="card" id="mainCard">
+        <div class="icon">💔</div>
+        <h2>Untukmu...</h2>
+        <p class="subtitle">Sebuah pesan dan melodi untukmu.</p>
+        <button class="btn" id="startBtn" onclick="mulaiTampilkan()">Buka Pesan</button>
+
+        <div class="message-box" id="messageBox">
+            <div id="typingText"></div>
+        </div>
+
+        <!-- Section Tambahan Untuk Foto -->
+        <div class="gallery-section" id="gallerySection">
+            <div class="gallery-title">i`m sorry baby</div>
+            <div class="gallery-grid" id="galleryGrid"></div>
+        </div>
+
+        <div class="final-note" id="finalNote">
+            Semoga kamu selalu bahagia dengan jalan yang kamu pilih. Selamat tinggal...
+        </div>
+    </div>
+
+    <!-- Ganti "lagu.mp3" dengan nama file MP3 milikmu -->
+    <audio id="bgMusic" src="lagu-babakterakhir.mp3" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
